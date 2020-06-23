@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="10dp"
+        android:text="편두통"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="194dp"
+        android:text="홍상-홍삼은 편두통의 원인이 되는 세토로닌 호르몬 분비를 조절해 주는 식품 무 - 무는 차가운 성질의 음식으로 편두통으로 인해서 체온이 상승할 때,열을 내려줍니다. 두통이 심할때 무를 강판에 갈거나 믹서기에 갈아서 섭취 하세요 증상 완화에 도움이 됩니다. 국화차 - 국화는 두통과 현기증 등 주로 머리에서 나타나는 질환에 효과가 있습니다. 신경을 안정화시키기 때문에 긴장성 두통에도 좋습니다. 머리를 맑게 해주고 숙면에도 도움이 됩니다. 식사 건너뛰지 않기 수분 섭취하기 카페인 줄이기 바른 자세 유지하기 유산소 운동하기 이렇게 좋은 것 들을 알려준다"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
